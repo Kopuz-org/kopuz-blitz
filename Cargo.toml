@@ -296,5 +296,7 @@ tracing-subscriber = "0.3"
 # parley = { path = "../parley/parley" }
 # fontique = { path = "../parley/fontique" }
 [patch.crates-io]
-taffy = { path = "/home/umceko/projects/taffy-fix" }
-stylo = { path = "/home/umceko/projects/stylo-fix" }
+taffy = { git = "https://github.com/Kopuz-org/kopuz-taffy", rev = "8609e92f1a3b60da70ca0a0fd9fa090f62847f46" }
+stylo = { git = "https://github.com/Kopuz-org/kopuz-stylo", rev = "ca38e455ef376e5b8715ef80e5e7a13cb5d2962e" }
+stylo_atoms = { git = "https://github.com/Kopuz-org/kopuz-stylo", rev = "ca38e455ef376e5b8715ef80e5e7a13cb5d2962e" }
+wgpu_context = { git = "https://github.com/Kopuz-org/kopuz-anyrender", rev = "7af1a51e998ecb4a4b479fe29d707bbabe5ef9ac" }
